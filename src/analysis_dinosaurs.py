@@ -126,10 +126,10 @@ missing_lengths_count = missing_lengths["name"].nunique()
 missing_lengths_perc = (missing_lengths_count / n_dinos) * 100
 
 print(
-      f"""
-      There are {missing_lengths_count} or {round(missing_lengths_perc, 1)}%
-      dinosaurs for which no length was recorded.
-      """
+    f"""
+    There are {missing_lengths_count} or {round(missing_lengths_perc, 1)}%
+    dinosaurs for which no length was recorded.
+    """
 )
 
 # Answer: With 72% of the dinosaurs having no length information, it could be
@@ -147,9 +147,9 @@ print(
 count_type = dinosaurs.groupby(["type"]).size().sort_values(ascending = False).reset_index()
 
 print(
-      f"""
-      The most common dinosaur type in the data set is {count_type.iloc[0, 0].capitalize()}.
-      """
+    f"""
+    The most common dinosaur type in the data set is {count_type.iloc[0, 0].capitalize()}.
+    """
 )
 
 #--------------------------------------------------
