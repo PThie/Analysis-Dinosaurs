@@ -1,5 +1,5 @@
-figcaption {
-    font-size: 14px;
-    color: gray;
+.image-caption {
     text-align: center;
+    font-size: .8rem;
+    color: lightgrey;
 }
