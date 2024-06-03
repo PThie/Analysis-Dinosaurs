@@ -111,4 +111,4 @@ plot(interactive_map)
 ```
 
 
-<iframe src="output/graphs/interactive_fossil_length_map.html" width="600" height="400"></iframe>
+[Interactive Fossil Length Map](https://github.com/PThie/Analysis-Dinosaurs/blob/main/output/graphs/interactive_fossil_length_map.html)
