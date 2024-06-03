@@ -16,10 +16,13 @@
 
 ### How many different dinosaur names are present in the data?
 
-![Number of dinosaurs by diet](output/graphs/diet_count.png)
-
-{:.image-caption}
-*Number of dinosaurs by diet*
+<figure>
+    <img
+    src="output/graphs/diet_count.png"
+    alt="Number of dinosaurs by diet"
+    style="width:500px;height:auto;">
+    <figcaption style="color:lightgrey;">Number of dinosaurs by diet</figcaption>
+</figure>
 
 Surprisingly, relatively few dinosaurs are omnivorous, i.e., consume plants and animals.
 
