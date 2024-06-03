@@ -16,11 +16,13 @@
 
 ### How many different dinosaur names are present in the data?
 
-<p>
+<p style="text-align:center;">
     <img
     src="output/graphs/diet_count.png"
     alt="Number of dinosaurs by diet"
     style="width:500px;height:auto;">
+</p>
+<p style="text-align:center;">
     <em>Number of dinosaurs by diet</em>
 </p>
 
