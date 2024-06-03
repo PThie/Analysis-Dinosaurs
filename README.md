@@ -23,7 +23,7 @@
     style="width:500px;height:auto;">
 </figure>
 
-<p>
+<p style="text-align:center">
     <img src="output/graphs/diet_count.png" alt>
     <em>Number of dinosaurs by diet</em>
 </p>
