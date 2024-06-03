@@ -21,8 +21,9 @@
     src="output/graphs/diet_count.png"
     alt="Number of dinosaurs by diet"
     style="width:500px;height:auto;">
-    <figcaption><em><small>Number of dinosaurs by diet</small</em></figcaption>
+    <figcaption<em><small>Number of dinosaurs by diet</small></em></figcaption>
 </figure>
+
 
 Surprisingly, relatively few dinosaurs are omnivorous, i.e., consume plants and animals.
 
