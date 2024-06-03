@@ -20,7 +20,7 @@
     <img
     src="output/graphs/diet_count.png"
     alt="Number of dinosaurs by diet"
-    style="width:600px;height:auto;">
+    style="width:500px;height:auto;">
     <figcaption>Number of dinosaurs by diet</figcaption>
 </figure>
 
@@ -45,7 +45,7 @@ There are actually 2 dinosaurs that can claim the title of the largest dinosaur:
     <img
     src="output/graphs/length_distribution.png"
     alt="Distribution of length (in m)"
-    style="width:600px;height:auto;">
+    style="width:500px;height:auto;">
     <figcaption>Distribution of length (in m)</figcaption>
 </figure>
 
@@ -76,7 +76,7 @@ Another issue is sample selection. The data set only contains the recorded, i.e.
     <img
     src="output/graphs/type_count.png"
     alt="Number of occurence by type"
-    style="width:600px;height:auto;">
+    style="width:500px;height:auto;">
     <figcaption>Number of occurence by type</figcaption>
 </figure>
 
@@ -88,7 +88,7 @@ Ornithopods appear the most in the data followed by theropods.
     <img
     src="output/graphs/age_plot.png"
     alt="Number of occurence by type"
-    style="width:600px;height:auto;">
+    style="width:500px;height:auto;">
     <figcaption>Number of occurence by type</figcaption>
 </figure>
 
@@ -113,6 +113,24 @@ interactive_map.update_geos(
 # show map
 plot(interactive_map)
 ```
-
+<figure>
+    <img
+    src="output/graphs/screenshot_map.png"
+    alt="Screenshot of interactive map"
+    style="width:600px;height:auto;">
+    <figcaption>Screenshot of interactive map</figcaption>
+</figure>
 
 [Interactive Fossil Length Map](https://github.com/PThie/Analysis-Dinosaurs/blob/main/output/graphs/interactive_fossil_length_map.html)
+
+### Difference between size and diets
+
+<figure>
+    <img
+    src="output/graphs/diet_boxplot.png"
+    alt="Boxplot of dinosaur length by diet"
+    style="width:500px;height:auto;">
+    <figcaption>Boxplot of dinosaur length by diet</figcaption>
+</figure>
+
+Herbivorous dinosaurs seem to be larger than the other dinosaur types. Their median length, as well as Q1 and Q3, are larger than those of carnivorous and omnivorous dinosaurs. This is interesting because a plant-based diet is harder to process and provides less energy. So herbivorous dinosaurs have to eat a lot more (in volume) to get that big. Carnivorous dinosaurs have an advantage in this category. However, plants are widely available compared to meat, so they can be easily consumed, so eating large amounts is not a challenge.
