@@ -19,7 +19,8 @@
 <figure>
     <img
     src="output/graphs/diet_count.png"
-    alt="Number of dinosaurs by diet">
+    alt="Number of dinosaurs by diet"
+    style="width:600px;height:auto;">
     <figcaption>Number of dinosaurs by diet</figcaption>
 </figure>
 
@@ -43,7 +44,8 @@ There are actually 2 dinosaurs that can claim the title of the largest dinosaur:
 <figure>
     <img
     src="output/graphs/length_distribution.png"
-    alt="Distribution of length (in m)">
+    alt="Distribution of length (in m)"
+    style="width:600px;height:auto;">
     <figcaption>Distribution of length (in m)</figcaption>
 </figure>
 
@@ -73,7 +75,8 @@ Another issue is sample selection. The data set only contains the recorded, i.e.
 <figure>
     <img
     src="output/graphs/type_count.png"
-    alt="Number of occurence by type">
+    alt="Number of occurence by type"
+    style="width:600px;height:auto;">
     <figcaption>Number of occurence by type</figcaption>
 </figure>
 
@@ -85,7 +88,7 @@ Ornithopods appear the most in the data followed by theropods.
     <img
     src="output/graphs/age_plot.png"
     alt="Number of occurence by type"
-    style="width:400px;height:auto;>
+    style="width:600px;height:auto;">
     <figcaption>Number of occurence by type</figcaption>
 </figure>
 
