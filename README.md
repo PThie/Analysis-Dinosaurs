@@ -16,15 +16,13 @@
 
 ### How many different dinosaur names are present in the data?
 
-<p style="text-align:center;">
+<div style="text-align: center;">
     <img
     src="output/graphs/diet_count.png"
     alt="Number of dinosaurs by diet"
     style="width:500px;height:auto;">
-</p>
-<p style="text-align:center;">
-    <em>Number of dinosaurs by diet</em>
-</p>
+    <p style="font-style: italic;">Number of dinosaurs by diet</p>
+</div>
 
 Surprisingly, relatively few dinosaurs are omnivorous, i.e., consume plants and animals.
 
