@@ -41,14 +41,13 @@ for name in largest_dinosaur:
 
 There are actually 2 dinosaurs that can claim the title of the largest dinosaur: <b>Supersaurus</b> and <b>Argentinosaurus</b>. Both are recorded with a maximum length of <b>35 meters</b>(from head to tail). This, of course, only holds for the recorded dinosaurs (see below with respect to missing information).
 
-<figure>
+<div style="text-align: center;">
     <img
     src="output/graphs/length_distribution.png"
     alt="Distribution of length (in m)"
     style="width:500px;height:auto;">
-    <figcaption
-    style="font-size:14px; color:gray; text-align:center;">Distribution of length (in m)</figcaption>
-</figure>
+    <p style="font-style: italic;">Distribution of length (in m)</p>
+</div>
 
 The bulk of dinosaurs is actually smaller than 10 meters.
 
@@ -73,28 +72,25 @@ Another issue is sample selection. The data set only contains the recorded, i.e.
 
 ### What dinosaur type has the most occurrences in this dataset?
 
-<figure>
+<div style="text-align: center;">
     <img
     src="output/graphs/type_count.png"
     alt="Number of occurence by type"
     style="width:500px;height:auto;">
-    <figcaption
-    style="font-size:14px; color:gray; text-align:center;">Number of occurence by type</figcaption>
-</figure>
+    <p style="font-style: italic;">Number of occurence by type</p>
+</div>
 
 Ornithopods appear the most in the data followed by theropods.
 
 ### Did dinosaurs get bigger over time?
 
-<figure>
+<div style="text-align: center;">
     <img
     src="output/graphs/age_plot.png"
-    alt="Number of occurence by type"
-    style="width:500px;height:auto;"
-    style="font-size:14px; color:gray; text-align:center;">
-    <figcaption
-    style="font-size:14px; color:gray; text-align:center;">Number of occurence by type</figcaption>
-</figure>
+    alt="Relationship between age and fossil length"
+    style="width:500px;height:auto;">
+    <p style="font-style: italic;">Relationship between age and fossil length</p>
+</div>
 
 There is a decreasing relationship between the age of the fossil and the its length. However, this does not necessarily mean that the dinosaurs got smaller. It could be a sample selection in the fossils.
 
@@ -117,26 +113,24 @@ interactive_map.update_geos(
 # show map
 plot(interactive_map)
 ```
-<figure>
+<div style="text-align: center;">
     <img
     src="output/graphs/screenshot_map.png"
     alt="Screenshot of interactive map"
-    style="width:600px;height:auto;">
-    <figcaption
-    style="font-size:14px; color:gray; text-align:center;">Screenshot of interactive map</figcaption>
-</figure>
+    style="width:500px;height:auto;">
+    <p style="font-style: italic;">Screenshot of interactive map</p>
+</div>
 
 [Interactive Fossil Length Map](https://github.com/PThie/Analysis-Dinosaurs/blob/main/output/graphs/interactive_fossil_length_map.html)
 
 ### Difference between size and diets
 
-<figure>
+<div style="text-align: center;">
     <img
     src="output/graphs/diet_boxplot.png"
     alt="Boxplot of dinosaur length by diet"
     style="width:500px;height:auto;">
-    <figcaption
-    style="font-size:14px; color:gray; text-align:center;">Boxplot of dinosaur length by diet</figcaption>
-</figure>
+    <p style="font-style: italic;">Boxplot of dinosaur length by diet</p>
+</div>
 
 Herbivorous dinosaurs seem to be larger than the other dinosaur types. Their median length, as well as Q1 and Q3, are larger than those of carnivorous and omnivorous dinosaurs. This is interesting because a plant-based diet is harder to process and provides less energy. So herbivorous dinosaurs have to eat a lot more (in volume) to get that big. Carnivorous dinosaurs have an advantage in this category. However, plants are widely available compared to meat, so they can be easily consumed, so eating large amounts is not a challenge.
