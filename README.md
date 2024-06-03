@@ -84,7 +84,8 @@ Ornithopods appear the most in the data followed by theropods.
 <figure>
     <img
     src="output/graphs/age_plot.png"
-    alt="Number of occurence by type">
+    alt="Number of occurence by type"
+    style="width:400px;height:auto;>
     <figcaption>Number of occurence by type</figcaption>
 </figure>
 
