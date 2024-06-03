@@ -21,7 +21,8 @@
     src="output/graphs/diet_count.png"
     alt="Number of dinosaurs by diet"
     style="width:500px;height:auto;">
-    <figcaption>Number of dinosaurs by diet</figcaption>
+    <figcaption
+    style="font-size:14px; color:gray; text-align:center;">Number of dinosaurs by diet</figcaption>
 </figure>
 
 Surprisingly, relatively few dinosaurs are omnivorous, i.e., consume plants and animals.
@@ -46,7 +47,8 @@ There are actually 2 dinosaurs that can claim the title of the largest dinosaur:
     src="output/graphs/length_distribution.png"
     alt="Distribution of length (in m)"
     style="width:500px;height:auto;">
-    <figcaption>Distribution of length (in m)</figcaption>
+    <figcaption
+    style="font-size:14px; color:gray; text-align:center;">Distribution of length (in m)</figcaption>
 </figure>
 
 The bulk of dinosaurs is actually smaller than 10 meters.
@@ -77,7 +79,8 @@ Another issue is sample selection. The data set only contains the recorded, i.e.
     src="output/graphs/type_count.png"
     alt="Number of occurence by type"
     style="width:500px;height:auto;">
-    <figcaption>Number of occurence by type</figcaption>
+    <figcaption
+    style="font-size:14px; color:gray; text-align:center;">Number of occurence by type</figcaption>
 </figure>
 
 Ornithopods appear the most in the data followed by theropods.
@@ -88,8 +91,10 @@ Ornithopods appear the most in the data followed by theropods.
     <img
     src="output/graphs/age_plot.png"
     alt="Number of occurence by type"
-    style="width:500px;height:auto;">
-    <figcaption>Number of occurence by type</figcaption>
+    style="width:500px;height:auto;"
+    style="font-size:14px; color:gray; text-align:center;">
+    <figcaption
+    style="font-size:14px; color:gray; text-align:center;">Number of occurence by type</figcaption>
 </figure>
 
 There is a decreasing relationship between the age of the fossil and the its length. However, this does not necessarily mean that the dinosaurs got smaller. It could be a sample selection in the fossils.
@@ -118,7 +123,8 @@ plot(interactive_map)
     src="output/graphs/screenshot_map.png"
     alt="Screenshot of interactive map"
     style="width:600px;height:auto;">
-    <figcaption>Screenshot of interactive map</figcaption>
+    <figcaption
+    style="font-size:14px; color:gray; text-align:center;">Screenshot of interactive map</figcaption>
 </figure>
 
 [Interactive Fossil Length Map](https://github.com/PThie/Analysis-Dinosaurs/blob/main/output/graphs/interactive_fossil_length_map.html)
@@ -130,7 +136,8 @@ plot(interactive_map)
     src="output/graphs/diet_boxplot.png"
     alt="Boxplot of dinosaur length by diet"
     style="width:500px;height:auto;">
-    <figcaption>Boxplot of dinosaur length by diet</figcaption>
+    <figcaption
+    style="font-size:14px; color:gray; text-align:center;">Boxplot of dinosaur length by diet</figcaption>
 </figure>
 
 Herbivorous dinosaurs seem to be larger than the other dinosaur types. Their median length, as well as Q1 and Q3, are larger than those of carnivorous and omnivorous dinosaurs. This is interesting because a plant-based diet is harder to process and provides less energy. So herbivorous dinosaurs have to eat a lot more (in volume) to get that big. Carnivorous dinosaurs have an advantage in this category. However, plants are widely available compared to meat, so they can be easily consumed, so eating large amounts is not a challenge.
