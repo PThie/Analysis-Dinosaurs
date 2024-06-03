@@ -1,5 +1,5 @@
 # Project: The Analysis of Dinosaur Fossils
-
+<link rel="stylesheet" type="text/css" href="style.css">
 ## Data
 - Information on dinosaur fossils with broad features like size or location
 - Source: DataCamp
@@ -21,7 +21,7 @@
     src="output/graphs/diet_count.png"
     alt="Number of dinosaurs by diet"
     style="width:500px;height:auto;">
-    <figcaption align="center"><span style="font-size:14px; color:gray;">Number of dinosaurs by diet</span></figcaption>
+    <figcaption>Number of dinosaurs by diet</figcaption>
 </figure>
 
 Surprisingly, relatively few dinosaurs are omnivorous, i.e., consume plants and animals.
